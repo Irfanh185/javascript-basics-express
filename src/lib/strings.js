@@ -1,9 +1,9 @@
-// function sayHello(string) {
-//   return 'Hello, world!';
-// }
 function sayHello(string) {
-  return 'Hello, fsghjdfkhgf!';
+  return `Hello, turtle!`;
 }
+// function sayHello(string) {
+//   return 'Hello, fsghjdfkhgf!';
+// }
 
 function uppercase(string) {
   return string.toUpperCase();
@@ -32,5 +32,5 @@ module.exports = {
   lowercase,
   countCharacters,
   firstCharacter,
-  firstCharacters
+  firstCharacters,
 };
